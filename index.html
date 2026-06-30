@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeba Tasleem - Front-End Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Areeba's Portfolio</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="right" id="navMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="rightSection">
+                <div class="hero-graphic-container">
+                    <div class="glow-pulse-circle"></div>
+                    <div class="avatar-frame">
+                        <img src="aavatr.png.png" alt="Areeba Tasleem Avatar" class="responsive-avatar-img" onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/6997/6997662.png';">
+                    </div>
+                </div>
+            </div>
+            <div class="leftSection">
+                <div class="hello-text">Hello, My Name is</div>
+                <span class="purple-text">Areeba Tasleem</span>
+                <div class="title-text">I am a <span id="element"></span></div>
+                <div class="buttons">
+                    <a href="mailto:areebatasleem200576@gmail.com" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutSection" id="about">
+            <div class="section-container">
+                <span class="subtitle">Get To Know Me</span>
+                <h1>About Me</h1>
+                <p class="about-p">
+                    Hello! My name is Areeba Tasleem. I am a passionate Computer Engineering student, Front-End Development Intern, and an aspiring Software + Hardware Engineer with a strong interest in building modern, responsive, and user-friendly web interfaces, as well as designing embedded systems and core software applications. I love bridging the gap between hardware execution and visually stunning software design. My goal is to continuously learn new technologies, explore automation, and create powerful digital experiences that are both functionally sound and aesthetically engaging.
+                </p>
+            </div>
+        </section>
+
+        <section class="skillsSection" id="skills">
+            <div class="section-container">
+                <span class="subtitle">My Expertise</span>
+                <h1>Skills</h1>
+                <div class="skills-grid">
+                    <div class="skill-card"><div class="skill-icon"><i class="fab fa-html5" style="color: #e34c26;"></i></div><h3>HTML</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fab fa-css3-alt" style="color: #264de4;"></i></div><h3>CSS</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fab fa-js" style="color: #f7df1e;"></i></div><h3>JavaScript</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fab fa-github"></i></div><h3>GitHub</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fab fa-python" style="color: #3776ab;"></i></div><h3>Python</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fas fa-microchip" style="color: #6d28d9;"></i></div><h3>Embedded Systems</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fas fa-project-diagram" style="color: #00f2fe;"></i></div><h3>Hardware Design</h3></div>
+                    <div class="skill-card"><div class="skill-icon"><i class="fas fa-laptop-code"></i></div><h3>Responsive Design</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projectsSection" id="projects">
+            <div class="section-container">
+                <span class="subtitle">My Creative Works</span>
+                <h1>Projects</h1>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-num">01</div>
+                        <h3>Interactive Quiz Application</h3>
+                        <p>A dynamic quiz application built with JavaScript logic, featuring real-time score tracking and interactive timer elements.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">02</div>
+                        <h3>E-Commerce Product Page</h3>
+                        <p>An interactive product catalog showcase with modern image gallery features, sleek UI elements, and fully responsive cards.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">03</div>
+                        <h3>Weather Dashboard</h3>
+                        <p>A real-time weather panel that connects with live APIs to deliver instant atmospheric updates and clean layout views.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">04</div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A beautifully designed single-page portfolio showcasing all your skills and visual identity.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">05</div>
+                        <h3>SAP-1 COMP</h3>
+                        <p>Designed and simulated the Simple-As-Possible (SAP-1) architecture structure to understand hardware-level execution cycles.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">06</div>
+                        <h3>IoT-Based Smart Security System</h3>
+                        <p>An automated smart system incorporating hardware sensors and embedded logic for real-time security alerts.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">07</div>
+                        <h3>Password Strength Checker</h3>
+                        <p>A smart security tool built using Python to analyze and evaluate user password complexity based on specific cryptographic rules.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-num">08</div>
+                        <h3>Student Management System</h3>
+                        <p>A comprehensive system designed using Python and C++ to handle student databases, academic records, and profiles safely.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactSection" id="contact">
+            <div class="section-container">
+                <span class="subtitle">Let's Connect</span>
+                <h1>Contact Me</h1>
+                <div class="contact-box">
+                    <p>If you would like to collaborate on a project or have any questions, feel free to reach out directly via email:</p>
+                    <div class="email-wrapper">
+                        <a href="mailto:areebatasleem200576@gmail.com" class="email-link">areebatasleem200576@gmail.com</a>
+                    </div>
+                    
+                    <div class="social-icons-container">
+                        <a href="https://www.linkedin.com/in/areeba-malik-1663aa370" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/areebatasleem719-cyber" target="_blank" rel="noopener noreferrer" class="social-btn github-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-rights">
+            Copyright &#169; 2026 | Designed by Areeba Tasleem
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
